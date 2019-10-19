@@ -4,11 +4,16 @@
 		<title>Simple Map</title>
 		<meta name="viewport" content="initial-scale=1.0">
 		<meta charset="utf-8">
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> <!-- enable jQuery -->
 	</head>
 	<body>
 
 
-		<img src='https://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.720032,-73.988354&fov=90&heading=0&pitch=10&key=AIzaSyDI8c1xJ4xr9VGlhAmSye4-2fWqQ2Dh_gc'></img>
+		<script src='main.js'></script>
+		<input type="button" id="btn" value="view">
+		<input type="text" name="url" value="https://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.720032,-73.988354&fov=90&heading=0&pitch=10&key=AIzaSyDI8c1xJ4xr9VGlhAmSye4-2fWqQ2Dh_gc">
+		<canvas id="canvas" width="0" height="0"></canvas>
+
 
 	</body>
 </html>
