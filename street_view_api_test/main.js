@@ -4,15 +4,13 @@ var steps
 $.getJSON("test2.json", function(json) {
 	console.log(json.routes[0].legs[0].steps) // this will show the info it in firebug console
 	steps = json.routes[0].legs[0].steps 
-
 });
 
 $(function(){
 	$('#btn').on('click',function(){
 
-
 		/*
-		//インスタンスの生成
+			//インスタンスの生成
 		gifAnimation = new GIFEncoder();
 		//コマ毎の遅延時間（ミリ秒）
 		gifAnimation.setDelay(0);
