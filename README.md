@@ -39,9 +39,7 @@
 javascript
 
 #### API・データ
-Google Maps API
-
-* 
+* Google Maps API
 * 
 * 
 
